@@ -1,0 +1,122 @@
+*{
+	padding: 0;
+	margin:  0;
+	outline: none;
+}
+@font-face {
+	font-family: Regurlar;
+	src: url('Oswald-Regular.ttf');
+}
+body {
+	display: flex;
+	flex-direction: column;
+}
+a {
+	text-decoration: none;
+	color: #979595;
+
+}
+.elements {
+	color: #979595;
+	transition: color 0.4s ease 0s;
+	display: flex;
+	padding-left: 120px;
+}
+.header {
+	z-index: 1;
+	justify-content: space-around;
+	align-items: center;
+	color:  #ffffff;
+	padding: 33px;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.elements a:hover {
+	color: #3e3e3e;
+	transition: 1s linear;
+}
+
+.elements a {
+	transition: 1s linear;
+}
+.fontElem {
+	font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+.fontLogo {
+	font: normal normal normal 17px/1.4em 'eb garamond',serif;
+	letter-spacing: 0.2em;
+	color: #2B2B2B;
+}
+.header span {
+	margin: 20px;
+	cursor: pointer;
+}
+.activeButton a {
+	color: #2B2B2B;
+	font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+.border {
+	border: 1px solid rgba(255, 255, 255, 1);
+	background-color: transparent;
+	border-radius: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 35px 55px 35px 55px;
+}
+.presentation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('Materials/pre.jpg');
+	padding: 160px 0 160px 0;
+}
+.border .fontLogo {
+	font: normal normal normal 37px/1.4em 'eb garamond',serif;
+}
+.text {
+	align-items: center;
+	padding: 20px 300px 20px 300px;
+}
+.headLine {
+	color: #292929;
+	font-size: 44px;
+	font-family: avenir-lt-w01_35-light1475496,sans-serif;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+.String {
+	font-size: 41px;
+	color: #2B2B2B;
+}
+.Team img {
+	padding: 20px 300px 10px 300px;
+	width: 849px;
+}
+.down {
+	justify-content: space-around;
+	align-items: center;
+	padding: 100px 0px 50px 0px;
+}
+.down span {
+	font: normal normal normal 12px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+	color: #2B2B2B;
+}
+.icons img {
+	margin: 15px;
+	cursor: pointer;
+}
+
+.text .question {
+	font-family: Regurlar;
+	font-size: 30px;
+	padding-right: 10px;
+}
+.text .answer {
+	padding: 0px 100px 20px 0px;
+	font: normal normal normal 20px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}

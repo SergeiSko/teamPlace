@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin:  0;
+	outline: none;
+}
+
+.elements {
+	color: #979595;
+	transition: color 0.4s ease 0s;
+	display: flex;
+	padding-left: 8%;
+	white-space: nowrap;
+}
+.header {
+	z-index: 1;
+	justify-content: space-around;
+	align-items: center;
+	color:  #ffffff;
+	padding: 2.1%;
+}
+.elements a:hover {
+	color: #3e3e3e;
+	transition: 1s linear;
+}
+.elements a {
+	transition: 1s linear;
+}
+.fontElem {
+	font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+.fontLogo {
+	font: normal normal normal 17px/1.4em 'eb garamond',serif;
+	letter-spacing: 0.2em;
+	color: #2B2B2B;
+}
+.header span {
+	margin: 20px;
+	cursor: pointer;
+}
+.activeButton a {
+	color: #2B2B2B;
+	font: normal normal normal 14px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}
+.border {
+	border: 1px solid rgba(255, 255, 255, 1);
+	background-color: transparent;
+	border-radius: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2.3% 2.5% 2.3% 2.5%;
+}
+.presentation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url('Materials/pre.jpg');
+	padding: 10.6% 0 10.6% 0;
+}
+.border .fontLogo {
+	font: normal normal normal 37px/1.4em 'eb garamond',serif;
+}
+.text {
+	align-items: center;
+	padding: 2% 20% 2% 20%;
+}
+.headLine {
+	color: #292929;
+	font-size: 300%;
+	font-family: avenir-lt-w01_35-light1475496,sans-serif;
+}
+.String {
+	font-size: 150%;
+	color: #2B2B2B;
+}
+.Team img {
+	padding: 2% 20% 2% 20%;
+    width: 58%;
+}
+.down {
+	justify-content: space-around;
+	align-items: center;
+	padding: 5% 0% 1% 0%;
+}
+.down span {
+	font: normal normal normal 12px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+	color: #2B2B2B;
+}
+.icons img {
+	margin: 15px;
+	cursor: pointer;
+}
+
+.text .question {
+	padding: 2% 6% 0.5% 6%;
+	font-family: Regurlar;
+	font-size: 200%;
+}
+.text .answer {
+	padding: 0% 6% 2% 6%;
+	font: normal normal normal 20px/1.4em helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
+}

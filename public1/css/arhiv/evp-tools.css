@@ -1,0 +1,286 @@
+/*
+-----  widgets.php
+*/
+
+.widget_evp_posts ul {
+    padding: 0 0 0 15px;
+}
+.widget_evp_posts ul li {
+    list-style: square;
+}
+
+.widget-area aside {
+    float: none;
+    overflow: hidden;
+}
+
+.widget-wrap {
+    float: left;
+    margin: 0 20px 0 0;
+}
+
+/*
+-----  embeds.php
+*/
+
+.evp-ct-embed-container {
+    position: relative !important;
+    padding-bottom: 56.25% !important;
+    padding-top: 30px !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    margin: 20px 4%;
+}
+
+.evp-ct-embed-container iframe, .evp-ct-embed-container object, .evp-ct-embed-container embed {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important
+}
+
+/*
+-------------- social.php
+*/
+
+
+/* responsive facebook like-box */
+.fb-like-box, .fb-like-box span, .fb-like-box span iframe[style] {
+    width: 99.9% !important;
+}
+
+/* Social buttons
+--------------------------------------------- */
+
+.evp_sf {
+    width: 100%;
+}
+
+.rss-button {
+    display: block;
+    font-size: 13px;
+    line-height: 14px;
+    padding: 0 10px 0 46px;
+    height: 32px;
+    width: 239px;
+    background: url(../images/rss.png) no-repeat;
+}
+
+.rss-button:hover {
+    background-color: #eeeeff;
+}
+
+.rss-icon {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: url(../images/rss.png) no-repeat;
+    background-size: cover;
+}
+
+#content ul.evp_social_buttons {
+    width: 100%;
+    display: block;
+    float: left;
+    padding: 0;
+    margin: 24px 0 0;
+}
+
+#content ul.evp_social_buttons li.evp_sb {
+    list-style-type: none;
+    list-style-position: outside;
+    padding: 0 0 6px 0;
+    margin: 0;
+    height: 24px;
+    float: left;
+}
+
+#content ul.evp_social_buttons li.evp_sb_facebook iframe {
+    max-width: none;
+}
+
+#content ul.evp_social_buttons iframe {
+    margin: 0;
+    padding: 0;
+}
+
+#content ul.evp_social_buttons li.evp_sb_wykop {
+}
+
+#content ul.evp_social_buttons li.evp_sb_facebook {
+    width: 115px;
+}
+
+#content ul.evp_social_buttons li.evp_sb_twitter {
+    width: 100px;
+}
+
+#content ul.evp_social_buttons li.evp_sb_linkedin {
+    width: 110px;
+}
+
+#content ul.evp_social_buttons li.evp_sb_googleplus {
+    width: 80px;
+}
+
+
+a.evp_big_button {
+    font-family: Verdana, Arial, sans-serif;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 12px 14px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+a.evp_big_button:link,
+a.evp_big_button:visited,
+a.evp_big_button:hover {
+    text-decoration: none;
+}
+
+a.evp_big_button.evp_fb_button:link,
+a.evp_big_button.evp_fb_button:visited,
+a.evp_big_button.evp_fb_button:hover {
+    color: white;
+}
+
+a.evp_fb_button{
+    color: white;
+    border-color:#37538d #37538d #213256;
+    border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 1px #aaaaaa;
+    text-shadow:0 0 1px #283d68;
+    background-color:#3e5ea1;
+    background-image:linear-gradient(to bottom, #4466ae, #37538d);
+    background-repeat:repeat-x;
+    user-select:none;
+}
+
+a.evp_fb_button:hover,
+a.evp_fb_button:focus,
+a.evp_fb_button:active {
+    color:#ffffff;
+    background-color:#37538d;
+    background-image:linear-gradient(to bottom, #33559d, #37538d);
+    box-shadow:none;
+    border-color:#30487b;
+    text-shadow:0 1px 1px #213256;
+}
+
+a.evp_fb_button:active {
+    background-color:#283d68;
+    border-color:#2d4373;
+    box-shadow:inset 1px 1px 2px rgba(0,0,0,.5);
+}
+
+a.evp_fb_button:before {
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    content: '\f09a';
+    position:relative;
+    padding-right: 10px;
+    top: 2px;
+}
+
+a.evp_big_button.evp_tw_button:link,
+a.evp_big_button.evp_tw_button:visited,
+a.evp_big_button.evp_tw_button:hover {
+    color: white;
+}
+
+a.evp_tw_button{
+    color: white;
+    border-color:#00a6d4 #00a6d4 #006a87;
+    border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    box-shadow: 1px 1px 1px #aaaaaa;
+    text-shadow:0 0px 1px #007ea1;
+    background-color:#01bbee;
+    background-image:linear-gradient(to bottom, #02c9ff, #00a6d4);
+    background-repeat:repeat-x;
+    user-select:none;
+}
+
+a.evp_tw_button:hover,
+a.evp_tw_button:focus,
+a.evp_tw_button:active {
+    color:#ffffff;
+    background-color:#00a6d4;
+    background-image:linear-gradient(to bottom, #02c9ff, #00a6d4);
+    box-shadow:none;
+    border-color:#30487b;
+    text-shadow:0 1px 1px #213256;
+}
+
+a.evp_tw_button:active {
+    background-color:#007ea1;
+    border-color:#008ab0;
+    box-shadow:inset 1px 1px 2px rgba(0,0,0,.5);
+}
+
+a.evp_tw_button:before {
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    content: '\f099';
+    position:relative;
+    padding-right: 10px;
+    top: 2px;
+}
+
+a.evp_wykop_button {
+    height: 39px;
+    padding-left: 50px;
+    background-image: url('../images/wykop_middle.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border: 1px solid #64abda;
+    color: #347baa;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+a.evp_big_button.evp_wykop_button:link,
+a.evp_big_button.evp_wykop_button:visited,
+a.evp_big_button.evp_wykop_button:hover {
+    color: #347baa;
+}
+
+a.evp_wykop_button:hover,
+a.evp_wykop_button:focus,
+a.evp_wykop_button:active {
+    background-color:#fafafa;
+    background-position: 11px center;
+    box-shadow:none;
+    border-color:#448bba;
+    text-shadow:0 1px 1px #415276;
+}
+
+/* gplus */
+a.evp_gp_button {
+    height: 39px;
+    padding-left: 50px;
+    background-image: url('../images/gplus24.png');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    border: 1px solid #ff9e9b;
+    color: #cf3e2b;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+a.evp_big_button.evp_gp_button:link,
+a.evp_big_button.evp_gp_button:visited,
+a.evp_big_button.evp_gp_button:hover {
+    color: #cf3e2b;
+}
+
+a.evp_gp_button:hover,
+a.evp_gp_button:focus,
+a.evp_gp_button:active {
+    background-color:#fafafa;
+    background-position: 11px center;
+    box-shadow:none;
+    border-color:#df4e4b;
+    text-shadow:0 1px 1px #cf1e1b;
+}
+
